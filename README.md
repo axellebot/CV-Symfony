@@ -9,9 +9,16 @@ Based on Symfony 3
 - Import database to symfony :
 
 ```shell
-php bin/console doctrine:mapping:import --force AppBundle xml
-php bin/console doctrine:mapping:convert annotation ./src
-php bin/console doctrine:generate:entities AppBundle
+$ php bin/console doctrine:mapping:import --force AppBundle xml
+$ php bin/console doctrine:mapping:convert annotation ./src
+$ php bin/console doctrine:generate:entities AppBundle
+```
+
+##Run Server
+### Dev mode :
+```shell
+$ cd my_project_name/
+$ php bin/console server:run
 ```
 
 
