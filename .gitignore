@@ -143,3 +143,6 @@ Temporary Items
 .idea/
 .idea
 .idea/*
+
+# Directory for Doctrine import
+src/AppBundle/Resources/config/doctrine/
